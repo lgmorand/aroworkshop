@@ -28,10 +28,10 @@ Red Hat OpenShift proposes several strategies to build and deploy applications o
 
 #### Deploy a nodeJS application from the Developer Catalog
 
-First, create a project as shown in the previous parts and name it **my-username**-s2i or the following command :
+First, create a project as shown in the previous parts and name it **<MY_USERNAME>-s2i** or the following command :
 
 ```
-oc new-project **my-username**-s2i 
+oc new-project <MY_USERNAME>-s2i 
 ```
 
 On the Web Console, follow those instructions :
@@ -49,7 +49,7 @@ We set now the Git repository url :
 
 ![Docker registry connection](/media/lab2/s2i_nodejs.png)
 
-1. The URL is : https://github.com/gestrem/pacman
+1. The URL is : **https://github.com/gestrem/pacman** .
 Explore Advanced git Options which are useful when there are custom files / directories locations.
 2. The Builder image is set automaticaly due to the presence of package.json file. 
 3. Couples of NodeJS version are available. We will use version 10 SCL.

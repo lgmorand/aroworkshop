@@ -18,7 +18,7 @@ You would like to access your application from outside your cluster, let's say f
 Open the terminal and ensure your are set on your project
 
 ```sh
-oc project YOUR_PROJECT_NAME
+oc project <PROJECT_NAME>
 ```
 
 Then use the **oc expose** command to create an URL pointing to your service
