@@ -28,7 +28,7 @@ jobs:
         path: _site
  
     - name: Azure Static Website Deploy
-      uses: lgmorand/azure-static-website-deploy@v0.1.2
+      uses: lgmorand/azure-static-website-deploy@v0.1.3
       env:
         # The name of the directory you want to upload
         SOURCE_DIR: "./_site"
